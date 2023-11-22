@@ -1,6 +1,6 @@
 import { ContractName, SupportedNetwork } from './types';
 
-const addresses: Record<ContractName, Partial<Record<SupportedNetwork, string>> | string> = {
+const addresses: Record<ContractName, Partial<Record<SupportedNetwork, string>>> = {
   Vault: {
     [SupportedNetwork.GOERLI]: '0xeAb261C2021Af0e3AC9D716C6b7BaDAd73caCfff',
   },
